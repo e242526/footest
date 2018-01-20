@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY','32i&p#j604j^&z!v3zqfc!)yjq=%9w4
 DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['immense-wildwood-53598.herokuapp.com',]
 
 
 # Application definition
